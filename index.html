@@ -3,85 +3,255 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>WATS 3020: FizzBuzz</title>
-  <meta name="description" content="WATS 3020 FizzBuzz Assignment">
-  <meta name="author" content="Jane Student">
+  <title>Sound Leather Books - FAQ</title>
+  <meta name="description" content="WATS 3020 Final Project Assignment - Flipping Tiles and Dropdowns">
+  <meta name="author" content="Jeff Salazar">
 
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/main.js" defer></script>
       
+  <!-- Bootstrap CSS Framework -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
       
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top">
+  <div class="container-fluid">
+
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand" href="#home"> Sound Leather Books </a>
+          </div>
+          <div class="collapse navbar-collapse" id="collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#product">Services</a></li>
+              <li><a href="#testimonials">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Nav Bar Close -->
+
+      <div class="firstsection" id="home">
+        <img src="newcoverphoto.png" alt="SLB Workshop" class="img-responsive">
+      </div>
+    </header>
+
+    <!-- About Section     -->
+
+    <div class="row" id="about">
+      <h2> About </h2>
+      <div class="col-md-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" gesture="media" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3 class="aboutheader"> Who are we? </h3>
+        <p> We are the API Superstore! Here to safe you time, money, and the stress that goes with looking for APis on your own.
+          <p> An API is a set of routines, tools, and protocols utilized for building sortware applications. An API specifies how components of software interact. What we do is gather all the APIs online, re-organize them and structure them to best fit your
+            own personal needs, and sell it right back to you!
+            <p> All you need to do is sign up with your payment information, browse the API catalog for your personal or business needs and requirements, and then retrieve a purchse link to the API Provider. Check out the video to find out more!
+      </div>
+    </div>
+    <!--   About Page -->
+
+
+    <!--  Transition Photo     -->
+
+    <div class="row" id="space">
+      <div class="col-sm-12">
+      </div>
+    </div>
+    <!--  Transition Photo     -->
+
+
+    <!--  Product Section     -->
+    <div class="row" id="product">
+      <h2> Product </h2>
+      <div class="col-md-6">
       
+        <ul>
+          <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span> Easy to Use Interface</span> </li>
+          <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span> Quick and Efficient</span> </li>
+          <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span> Time and Money Saver</span> </li>
+          <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span>Smooth Intergration </span></li>
+          <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span> Full-Online Access to Tools</span> </li>
+          <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span> Excellent Support Team</span> </li>
+          <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span> 30 Day Full-Refund</span> </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="rsz_productimage.jpg" alt="Tile Wide Photos" class="img-responsive">
+      </div>
+
+      <div class="row purchase">
+        <div class="row">
+          <div class="col-sm-12 purchasepadding">
+            <div class="purchasebox">
+              <h3>Purchase Now!
+                <h3>
+                  <div class="col-lg-6 col-md-6 "><img src="smpricetag.png" class="pricetag"> </div>
+                  <div class="col-lg-6 col-md-6 buttonpadding"><span class="price">$19.95 </span> <button type="button" class="btn-lg btn-success">Buy Now!</button> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--  Transition Photo     -->
+
+    <div class="row" id="space2">
+      <div class="col-sm-12"> </div>
+    </div>
+    <!--  Transition Photo     -->
+
+        
+        
+    <!-- Testimonials -->
+    <div class="row" id="testimonials">
+      <div class="container textalign">
+  
+      <h2> Testimonials </h2>
+        
+        
+      <div class="photo col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0">
+        <img class="img-circle testimonial" src="Professional-Man-rsz.jpg" alt="Testimonial Photo">
+         <p class="background firstquote">"My experience was amazing with this product! I was skeptical at first, but I didn't realize how much I needed this until I had it" 
+        <footer class="blockquote-footer"> - Bobby B., 2016 </footer>
+      </div>
+                  
+                
+      <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-0">
+        <img class="img-circle testimonial" src="employee2-rsz.jpg" alt="Testimonial Photo">
+         
+                    
+            <p class="background">
+              "I love this product! I will
+            never go back to doing all
+            this work on my own. The
+            fast and helpful tools it
+            brings to to the consumer
+            is amazing and definitely
+            worth the money."
+              <footer class="blockquote-footer"> - Sandra K., 2017 </footer>  
+      </div>
+     
+        <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-0">
+          <img class="img-circle testimonial" src="employee4-rsz.jpg" alt="Testimonial Photo">
+          <p class="background"> "I am not the most
+                tech-savvy individual, and I
+                found the customersupport
+                team to not only be very
+                easy to understand and
+                resourceful, but also
+                incredibly fast."</b>
+          <footer class="blockquote-footer"> - John D., 2017 </footer>
+      </div>
+         </div>
+    </div>
+
+    <!--  Transition Photo     -->
+
+    <div class="row" id="space3">
+      <div class="col-sm-12"> </div>
+    </div>
+    <!--  Transition Photo     -->
+        
+                
+ <!--  Contact Section     -->
+    <div class="row" id="contact">
+      <div class="col-sm-4 col-sm-offset-4">
+        <h2> Contact us </h2>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Full Name:</label>
+              <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+              <p class="help-block"></p>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Phone Number:</label>
+              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Email Address:</label>
+              <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Message:</label>
+              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            </div>
+          </div>
+          <div id="success"></div>
+          <!-- For success/fail messages -->
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+        </div>
+             
+    <hr>
+
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <p> Call us toll-free at <span class="phone"> 888-123-4567 </span></p>
+            <p> All contents &copy; 2017 <a href="index.html"> API Superstore </a> All rights reserves. </p>
+          </div>
+          <div class="col-sm-6">
+         </div>
+        </div>
+      </div>
+    </footer>
       
-<div class="row">
-<div class="col-sm-3">
-      <div class="flip">
-        <div class="card"> 
-          <div class="face front"> 
-            <div class="inner">   
-              <img src="http://vinculumgroup.com/v2/wp-content/uploads/2015/08/nykaa.jpg">
-            </div>
-          </div> 
-          <div class="face back"> 
-            <div class="inner text-center"> 
-              <h3>Improved efficiency through automation</h3>
-              <button type="button" class="btn btn-default">Know More</button>
-            </div>
-          </div>
-        </div>	 
-      </div>
-    </div>
-  <div class="col-sm-3">
-      <div class="flip">
-        <div class="card"> 
-          <div class="face front"> 
-            <div class="inner">   
-              <img src="http://vinculumgroup.com/v2/wp-content/uploads/2015/08/nykaa.jpg">
-            </div>
-          </div> 
-          <div class="face back"> 
-            <div class="inner text-center"> 
-              <h3>Improved efficiency through automation</h3>
-              <button type="button" class="btn btn-default">Know More</button>
-            </div>
-          </div>
-        </div>	 
-      </div>
-    </div>
-  <div class="col-sm-3">
-      <div class="flip">
-        <div class="card"> 
-          <div class="face front"> 
-            <div class="inner">   
-              <img src="http://vinculumgroup.com/v2/wp-content/uploads/2015/08/nykaa.jpg">
-            </div>
-          </div> 
-          <div class="face back"> 
-            <div class="inner text-center"> 
-              <h3>Improved efficiency through automation</h3>
-              <button type="button" class="btn btn-default">Know More</button>
-            </div>
-          </div>
-        </div>	 
-      </div>
-    </div>
-  <div class="col-sm-3">
-      <div class="flip">
-        <div class="card"> 
-          <div class="face front"> 
-            <div class="inner">   
-              <img src="http://vinculumgroup.com/v2/wp-content/uploads/2015/08/nykaa.jpg">
-            </div>
-          </div> 
-          <div class="face back"> 
-            <div class="inner text-center"> 
-              <h3>Improved efficiency through automation</h3>
-              <button type="button" class="btn btn-default">Know More</button>
-            </div>
-          </div>
-        </div>	 
-      </div>
-    </div>
-  </div>
+       <aside id="social">
+   <h2> Share! </h2>
+<ul class="social-links">
+  <li class="twitter"><a href="https://twitter.com/" title="Twitter Homepage" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+  <li class="instagram"><a href="https://www.instagram.com/?hl=en" title="Instragram Homepage" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+  <li class="youtube"><a href="https://www.youtube.com/" title="Youtube Homepage" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+   </ul>
+      </aside>
+      
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
