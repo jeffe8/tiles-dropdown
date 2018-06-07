@@ -200,85 +200,82 @@ body {
 
 .tile-1 {
   text-align: center;
-  background-image: url("image/IMG_4971.JPG");
-  height: 100px;
-    width: 100px;
-    overflow: hidden;
+  background-image: url("image/IMG_4972.JPG");
+  background-size: contain;
     background-repeat: no-repeat;
+  height: 180px;
+    width: 180px;
+    overflow: hidden;
     max-width: 100%;
     text-align: center;
     vertical-align: middle;
-    background-size:200px 200px;
-  
 }
 
 .tile-2 {
   text-align: center;
-  background-image: url("image/IMG_4971.JPG");
-  height: 100px;
-    width: 100px;
-    overflow: hidden;
+  background-image: url("image/IMG_4845_copy.jpg");
+  background-size: contain;
     background-repeat: no-repeat;
+  height: 180px;
+    width: 180px;
+    overflow: hidden;
     max-width: 100%;
     text-align: center;
     vertical-align: middle;
-    background-size:200px 200px;
-  
 }
 
 .tile-3 {
-  text-align: center;
-  background-image: url("image/IMG_4971.JPG");
-  height: 100px;
-    width: 100px;
-    overflow: hidden;
+ text-align: center;
+  background-image: url("image/IMG_4825_copy.jpg");
+  background-size: contain;
     background-repeat: no-repeat;
+  height: 180px;
+    width: 180px;
+    overflow: hidden;
     max-width: 100%;
     text-align: center;
     vertical-align: middle;
-    background-size:200px 200px;
-  
 }
 
 .tile-4 {
-  text-align: center;
-  background-image: url("image/IMG_4971.JPG");
-  height: 100px;
-    width: 100px;
-    overflow: hidden;
+   text-align: center;
+  background-image: url("image/IMG_4666.JPG");
+  background-size: contain;
     background-repeat: no-repeat;
+  height: 180px;
+    width: 180px;
+    overflow: hidden;
     max-width: 100%;
     text-align: center;
     vertical-align: middle;
-    background-size:200px 200px;
   
 }
 
 .tile-5 {
-  text-align: center;
-  background-image: url("image/IMG_4971.JPG");
-  height: 100px;
-    width: 100px;
-    overflow: hidden;
+   text-align: center;
+  background-image: url("image/IMG_4228.JPG");
+  background-size: contain;
     background-repeat: no-repeat;
+  height: 180px;
+    width: 180px;
+    overflow: hidden;
     max-width: 100%;
     text-align: center;
     vertical-align: middle;
-    background-size:200px 200px;
   
 }
 
 .tile-6 {
-  text-align: center;
-  background-image: url("image/IMG_4971.JPG");
-  height: 100px;
-    width: 100px;
-    overflow: hidden;
+   text-align: center;
+  background-image: url("image/IMG_4182.JPG");
+  background-size: contain;
     background-repeat: no-repeat;
+  height: 180px;
+    width: 180px;
+    overflow: hidden;
     max-width: 100%;
     text-align: center;
     vertical-align: middle;
-    background-size:200px 200px;
   
 }
 
