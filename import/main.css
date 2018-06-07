@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+
+ul {
+    list-style-type: none;
+}
+a.show-toggle {
+    padding: 4px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+a.show-toggle:hover {
+    padding: 4px;
+    background: white;
+    color: blue;
+}
+
+.extra {
+    height: 1px;
+    overflow: hidden;
+    transition: height 2s;
+}
+
+.open .extra {
+    height: 100px;
+}
