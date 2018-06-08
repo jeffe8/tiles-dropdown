@@ -1,46 +1,46 @@
 document.addEventListener('DOMContentLoaded', function(){
     let data = [
         {
-            title: "TEST",
-            description: "Lorem ipsum dolor sit amet."
+            title: "A project can take anywhere from 24-hours to several weeks.  ",
+            description: "It all depends on the detail and design."
         },
         {
-            title: "TEST",
-            description: "Lorem ipsum dolor sit amet."
+            title: "Typically, a custom book project starts at around $100 and works up from there.",
+            description: "Designs are chosen for efficiency."
         },
         {
-            title: "TEST",
-            description: "Lorem ipsum dolor sit amet."
+            title: "Tanned sheep skin leather.  This is the best I've seen simply for it's soft feel and ease of manipulation.",
+            description: "Works well with corners."
         },
         {
-            title: "TEST",
-            description: "Lorem ipsum dolor sit amet."
+            title: "Tolkien and Martin - along with some of the classics",
+            description: "However, I do enjoy contemporary authors from time to time."
         }
     ]
-    let demolist = document.querySelector('#demolist');
+    let FAQAnswers = document.querySelector('#FAQAnswers');
     
     for (let item of data) {
         let itemTemplate = `
-            <a class="show-toggle">show me</a>
+            <a class="show-toggle">Answer</a>
             <div class="extra">
-                <h2>${item.title}</h2>
+                <p>${item.title}</p>
                 <p>${item.description}</p>
             </div>
         `;
         let newListItem = document.createElement('li');
         newListItem.innerHTML = itemTemplate;
-        demolist.appendChild(newListItem);
+        FAQAnswers.appendChild(newListItem);
     }
 
     
-    let items = document.querySelectorAll('#demolist li a');
+    let items = document.querySelectorAll('#FAQAnswers li a');
     for (let item of items) {
         item.addEventListener('click', function(event){
             event.currentTarget.parentElement.classList.toggle('open');
-            if (event.currentTarget.innerHTML == 'show me') {
-                event.currentTarget.innerHTML = "hide me";
+            if (event.currentTarget.innerHTML == 'Collapse') {
+                event.currentTarget.innerHTML = "Answer";
             } else {
-                event.currentTarget.innerHTML = "show me";
+                event.currentTarget.innerHTML = "Collapse";
             }
             
         });
